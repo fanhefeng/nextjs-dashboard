@@ -2,8 +2,8 @@
   "private": true,
   "scripts": {
     "build": "next build",
-    "dev": "next dev --turbopack",
-    "start": "next start"
+    "dev": "next dev --turbopack --port 3001",
+    "start": "next start --port 3001"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
